@@ -53,7 +53,7 @@ function HoopsFilm() {
     {
       videoSrc: "ella-vid-2.mov",
       title: "Ella Training",
-      description: "3 Pt Catch and Shoot",
+      description: "Intense Basketball Workout",
     },
     {
       videoSrc: "ella-vid-3.MOV",
