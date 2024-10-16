@@ -80,7 +80,7 @@ function Contact() {
             mt={4}
             bgColor="#D2042D"
             color="#F8F8F8"
-            minW="50%"
+            minW="100%"
             maxW="45%"
             alignSelf="center"
             fontFamily="'Teko', sans-serif"

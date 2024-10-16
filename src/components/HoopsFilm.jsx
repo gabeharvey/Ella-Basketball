@@ -72,17 +72,17 @@ function HoopsFilm() {
     },
     {
       videoSrc: "../video6.mp4",
-      title: "Ella's Passing Skills",
+      title: "Ella Passing Skills",
       description: "Amazing assists and playmaking",
     },
     {
       videoSrc: "../video7.mp4",
-      title: "Ella's All-Star Game",
-      description: "Best moments from the All-Star game",
+      title: "Ella All-Star Game",
+      description: "Best moments from All-Star game",
     },
     {
       videoSrc: "../video8.mp4",
-      title: "Ella's High School Highlights",
+      title: "Ella High School Highlights",
       description: "Top plays from High School career",
     },
   ];

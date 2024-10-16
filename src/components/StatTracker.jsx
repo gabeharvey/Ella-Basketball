@@ -304,9 +304,20 @@ function StatTracker() {
             />
           </FormControl>
           <Button
-            colorScheme="red"
+                        mt={4}
+                        bgColor="#D2042D"
+                        color="#F8F8F8"
+                        minW="100%"
+                        maxW="45%"
+                        alignSelf="center"
+                        fontFamily="'Teko', sans-serif"
+                        fontWeight="medium"
+                        fontSize="xl"
+                        borderRadius="8px"
+                        borderColor="#D2042D"
+                        borderWidth="3px"
+                        _hover={{ borderColor: '#F8F8F8' }}
             onClick={handleAddGame}
-            mt={4}
           >
             Add Game
           </Button>

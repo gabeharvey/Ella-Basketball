@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import { IconButton, Flex, Box } from '@chakra-ui/react'; // Add Image for X logo
+import { IconButton, Flex, Box, Image } from '@chakra-ui/react'; 
 import { FaFacebookF, FaInstagram, FaSnapchatGhost, FaYoutube } from 'react-icons/fa';
-// import XLogo from '/x-logo.png';
+import XLogo from '/x-logo-white.png';
 
 function Footer() {
   return (
@@ -47,7 +47,7 @@ function Footer() {
                 fontSize="24px"
                 _hover={{ color: 'yellow' }}
               />
-              {/* <IconButton
+              <IconButton
                 as={Link}
                 to="https://x.com"
                 aria-label="X"
@@ -55,7 +55,7 @@ function Footer() {
                 variant="ghost"
                 color="#F5F5F5"
                 _hover={{ color: '#F5F5F5' }}
-              /> */}
+              />
               <IconButton
                 as={Link}
                 to="https://www.youtube.com"
