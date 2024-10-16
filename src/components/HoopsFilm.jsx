@@ -73,17 +73,17 @@ function HoopsFilm() {
     {
       videoSrc: "../video6.mp4",
       title: "Ella's Passing Skills",
-      description: "Amazing assists and playmaking.",
+      description: "Amazing assists and playmaking",
     },
     {
       videoSrc: "../video7.mp4",
       title: "Ella's All-Star Game",
-      description: "Best moments from the All-Star game.",
+      description: "Best moments from the All-Star game",
     },
     {
       videoSrc: "../video8.mp4",
       title: "Ella's High School Highlights",
-      description: "Top plays from High School career.",
+      description: "Top plays from High School career",
     },
   ];
 
@@ -102,7 +102,7 @@ function HoopsFilm() {
       mt={{ base: 12, md: 16 }}
       mb={{ base: 12, md: 16 }}
     >
-      <Text fontSize="3xl" fontWeight="medium" color="#D2042D" fontFamily="'Teko', sans-serif">
+      <Text fontSize="4xl" fontWeight="medium" color="#D2042D" fontFamily="'Teko', sans-serif">
         Hoops Film
       </Text>
       <SimpleGrid columns={columns} spacing={{ base: 3, sm: 5 }} justifyItems="center">

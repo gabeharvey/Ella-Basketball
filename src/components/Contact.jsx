@@ -16,7 +16,7 @@ function Contact() {
       bgRepeat="no-repeat"
       mb={16}
     >
-      <Heading fontSize="3xl" fontWeight="medium" color="#D2042D" fontFamily="'Teko', sans-serif">
+      <Heading fontSize="4xl" fontWeight="medium" color="#D2042D" fontFamily="'Teko', sans-serif">
         Contact Us
       </Heading>
       

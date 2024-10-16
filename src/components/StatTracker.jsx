@@ -87,7 +87,7 @@ function StatTracker() {
       bgRepeat="no-repeat"
       mt={16}
     >
-      <Heading fontSize="3xl" fontWeight="medium" color="#D2042D" fontFamily="'Teko', sans-serif">
+      <Heading fontSize="4xl" fontWeight="medium" color="#D2042D" fontFamily="'Teko', sans-serif">
         Game Stat Tracker
       </Heading>
       <Flex gap={4} mb={6} justifyContent="center">
