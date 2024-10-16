@@ -132,7 +132,7 @@ function StatTracker() {
             fontSize="md"
             textAlign="center" 
           >
-            Elite Stats
+            Elite Club Stats
           </Text>
           <Text color="#F8F8F8">Points: {averagesTexasHardwork.points}</Text>
           <Text color="#F8F8F8">Assists: {averagesTexasHardwork.assists}</Text>
