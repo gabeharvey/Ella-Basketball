@@ -7,12 +7,12 @@ function Offers() {
   const offers = [
     {
       schoolName: "University",
-      logo: "university.png", 
+      logo: "utsa-logo.png", 
       description: "Full athletic scholarship",
     },
     {
       schoolName: "College",
-      logo: "college.png",
+      logo: "utsa-logo.png",
       description: "Full athletic scholarship",
     },
   ];
