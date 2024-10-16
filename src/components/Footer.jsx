@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import { IconButton, Flex, Box, Image } from '@chakra-ui/react';
+import { IconButton, Flex, Box } from '@chakra-ui/react'; // Add Image for X logo
 import { FaFacebookF, FaInstagram, FaSnapchatGhost, FaYoutube } from 'react-icons/fa';
-import XLogo from '/x-logo.png';
+// import XLogo from '/x-logo.png';
 
 function Footer() {
   return (
@@ -23,7 +23,7 @@ function Footer() {
                 aria-label="Facebook"
                 icon={<FaFacebookF />}
                 variant="ghost"
-                color="#000000"
+                color="#F5F5F5"
                 fontSize="24px"
                 _hover={{ color: 'blue.500' }}
               />
@@ -33,7 +33,7 @@ function Footer() {
                 aria-label="Instagram"
                 icon={<FaInstagram />}
                 variant="ghost"
-                color="#000000"
+                color="#F5F5F5"
                 fontSize="24px"
                 _hover={{ color: 'pink.500' }}
               />
@@ -43,26 +43,26 @@ function Footer() {
                 aria-label="Snapchat"
                 icon={<FaSnapchatGhost />}
                 variant="ghost"
-                color="#000000"
+                color="#F5F5F5"
                 fontSize="24px"
                 _hover={{ color: 'yellow' }}
               />
-              <IconButton
+              {/* <IconButton
                 as={Link}
                 to="https://x.com"
                 aria-label="X"
                 icon={<Image src={XLogo} alt="X Logo" boxSize="24px" />}
                 variant="ghost"
-                color="#000000"
-                _hover={{ color: '#000000' }}
-              />
+                color="#F5F5F5"
+                _hover={{ color: '#F5F5F5' }}
+              /> */}
               <IconButton
                 as={Link}
                 to="https://www.youtube.com"
                 aria-label="YouTube"
                 icon={<FaYoutube />}
                 variant="ghost"
-                color="#000000"
+                color="#F5F5F5"
                 fontSize="24px"
                 _hover={{ color: 'red.500' }}
               />

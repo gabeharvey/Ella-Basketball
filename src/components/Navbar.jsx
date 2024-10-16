@@ -6,7 +6,6 @@ import {
     Link as ChakraLink,
     IconButton,
     useDisclosure,
-    Divider,
     Text,
 } from '@chakra-ui/react';
 import { CloseIcon } from '@chakra-ui/icons';
@@ -67,7 +66,7 @@ const Navbar = () => {
 
     return (
         <Box
-            bgColor="#ebebeb"
+            bgColor="#D2042D"
             borderBottomRadius="12px"
             py="2.5rem"
             px="2rem"
@@ -88,14 +87,14 @@ const Navbar = () => {
                         smooth={true}
                         offset={-100}
                         duration={500}
-                        fontSize={{ base: '2xl', md: '3xl' }}
+                        fontSize={{ base: '3xl', md: '4xl' }}
                         fontFamily="'Teko', sans-serif"
-                        color="#000000"
+                        color="#F5F5F5"
                         letterSpacing="wider"
                         mb={isMobile ? 2 : 0}
                         style={{ cursor: 'pointer' }}
                     >
-                        Ella Ramirez
+                        Ella Ramirez #12
                     </Heading>
                 </Flex>
                 <Spacer />
@@ -104,19 +103,19 @@ const Navbar = () => {
                     icon={
                         showCloseIcon ? (
                             <motion.div
-                                whileHover={{ scale: 1.2, color: '#e47608' }}
+                                whileHover={{ scale: 1.2, color: '#F5F5F5' }}
                                 animate={{ y: [0, -5, 0] }}
                                 transition={{ duration: 0.5, repeat: Infinity, repeatType: 'loop' }}
-                                style={{ color: '#e47608' }}
+                                style={{ color: '#F5F5F5' }}
                             >
                                 <CloseIcon />
                             </motion.div>
                         ) : (
                             <motion.div
-                                whileHover={{ scale: 1.2, color: '#e47608' }}
+                                whileHover={{ scale: 1.2, color: '#F5F5F5' }}
                                 animate={{ y: [0, -5, 0] }}
                                 transition={{ duration: 0.5, repeat: Infinity, repeatType: 'loop' }}
-                                style={{ color: '#e47608' }}
+                                style={{ color: '#F5F5F5' }}
                             >
                                 <CgMenuGridO />
                             </motion.div>
@@ -152,7 +151,7 @@ const Navbar = () => {
                             duration={500}
                             fontSize="lg"
                             fontWeight="extrabold"
-                            color="#000000"
+                            color="#F5F5F5"
                             position="relative"
                             _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#e47608' }}
                             _after={{
@@ -182,21 +181,21 @@ const Navbar = () => {
                     >
                         <Box
                             ref={menuRef}
-                            bgColor="#ebebeb"
+                            bgColor="#D2042D"
                             p="1rem"
                             borderTopLeftRadius="30px"
                             borderBottomLeftRadius="30px"
-                            color="#000000"
+                            color="#F5F5F5"
                             height="100%"
                             boxShadow="0 0 20px rgba(0, 0, 0, 0.9)"
                         >
                             <Flex alignItems="center" justifyContent="space-between" mb="1rem">
-                                <Text fontSize="lg" ml="20px" fontWeight="extrabold">
+                                <Text fontSize="2xl" ml="20px" fontWeight="extrabold">
                                     MENU
                                 </Text>
                                 <IconButton
                                     icon={<CloseIcon w={6} h={6} />}
-                                    color="#F28C28"
+                                    color="#F5F5F5"
                                     aria-label="Close Menu"
                                     variant="outline"
                                     onClick={onClose}
@@ -205,9 +204,10 @@ const Navbar = () => {
                                     _hover={{ bg: 'transparent' }}
                                     size="lg"
                                     fontWeight="bold"
+                                    borderColor="transparent"
                                 />
                             </Flex>
-                            <Divider />
+                            {/* <Divider /> */}
                             <Flex as="ul" flexDirection="column" alignItems="flex-start" gap="1rem" mt="1rem">
                                 {['PLAYER BIO', 'HOOPS FILM', 'PLAYER CARDS', 'STAT TRACKER', 'OFFERS', 'CONTACT'].map((text, index) => (
                                     <ChakraLink
@@ -220,7 +220,7 @@ const Navbar = () => {
                                         duration={500}
                                         fontSize="lg"
                                         fontWeight="extrabold"
-                                        color="#000000"
+                                        color="#F5F5F5"
                                         position="relative"
                                         _hover={{ transform: 'scale(1.05)', transition: 'transform 0.2s', color: '#e47608' }}
                                         style={{ cursor: 'pointer' }}

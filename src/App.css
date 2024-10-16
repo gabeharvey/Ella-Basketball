@@ -71,11 +71,11 @@
 }
 
 .footer {
-  background-color: #F8F8F8; 
+  background-color: #D2042D; 
   font-family: "Teko", sans-serif;
   padding: 20px;
   text-align: center;
-  background-image: linear-gradient(-45deg, #F8F8F8 25%, transparent 25%, transparent 50%, #F8F8F8 50%, #F8F8F8 75%, transparent 75%, transparent);
+  background-image: linear-gradient(-45deg, #D2042D 25%, transparent 25%, transparent 50%, #D2042D 50%, #D2042D 75%, transparent 75%, transparent);
   background-size: 1px 1px;
 }
 
@@ -86,8 +86,8 @@
 }
 
 .footer-logo {
-  color: #000000; 
-  font-size: 20px;
+  color: #F5F5F5; 
+  font-size: 28px;
   font-weight: 600;
   margin-bottom: 100x; 
 }
@@ -109,7 +109,7 @@
 }
 
 .footer-link {
-  color: #000000; 
+  color: #F5F5F5; 
   text-decoration: none;
   font-size: 18px;
   transition: color 0.3s;
@@ -121,7 +121,7 @@
 
 .tilt-prism-footer {
   font-family: 'Tilt Prism', sans-serif;
-  font-size: 28px;
-  color: #000000;
+  font-size: 22px;
+  color: #F5F5F5;
   font-weight: bold;
 }
