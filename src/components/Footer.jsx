@@ -26,6 +26,7 @@ function Footer() {
                 color="#F5F5F5"
                 fontSize="24px"
                 _hover={{ color: 'blue.500' }}
+                _active={{ bg: 'transparent' }}
               />
               <IconButton
                 as={Link}
@@ -36,6 +37,7 @@ function Footer() {
                 color="#F5F5F5"
                 fontSize="24px"
                 _hover={{ color: 'pink.500' }}
+                _active={{ bg: 'transparent' }}
               />
               <IconButton
                 as={Link}
@@ -46,6 +48,7 @@ function Footer() {
                 color="#F5F5F5"
                 fontSize="24px"
                 _hover={{ color: 'yellow' }}
+                _active={{ bg: 'transparent' }}
               />
               <IconButton
                 as={Link}
@@ -55,6 +58,7 @@ function Footer() {
                 variant="ghost"
                 color="#F5F5F5"
                 _hover={{ color: '#F5F5F5' }}
+                _active={{ bg: 'transparent' }}
               />
               <IconButton
                 as={Link}
@@ -65,6 +69,7 @@ function Footer() {
                 color="#F5F5F5"
                 fontSize="24px"
                 _hover={{ color: 'red.500' }}
+                _active={{ bg: 'transparent' }}
               />
             </Flex>
             <Flex alignItems="center" justifyContent="center">
