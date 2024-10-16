@@ -107,7 +107,7 @@ function StatTracker() {
             fontSize="md"
             textAlign="center" 
           >
-            Churchill High School Stats
+            Churchill HS Stats
           </Text>
           <Text color="#F8F8F8">Points: {averagesHS.points}</Text>
           <Text color="#F8F8F8">Assists: {averagesHS.assists}</Text>
