@@ -94,7 +94,7 @@ const Navbar = () => {
                         mb={isMobile ? 2 : 0}
                         style={{ cursor: 'pointer' }}
                     >
-                        Ella Ramirez #12
+                        Ella Ramirez #16
                     </Heading>
                 </Flex>
                 <Spacer />
