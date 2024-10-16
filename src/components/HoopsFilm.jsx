@@ -30,11 +30,11 @@ function VideoCard({ videoSrc, title, description }) {
             }}
           />
         </Box>
-        <Box p={3} textAlign="center" bgColor="#D2042D" h="30%">
-          <Text fontSize="2xl" fontWeight="semibold" color="#F5F5F5" fontFamily="'Teko', sans-serif">
+        <Box p={3} textAlign="center" bgColor="#F5F5F5" h="30%">
+          <Text fontSize="2xl" fontWeight="semibold" color="#000000" fontFamily="'Teko', sans-serif">
             {title}
           </Text>
-          <Text mt={2} fontSize="lg" fontWeight="bold" color="#F5F5F5" fontFamily="'Roboto+Condensed', system-ui">
+          <Text mt={2} fontSize="lg" fontWeight="bold" color="#000000" fontFamily="'Roboto+Condensed', system-ui">
             {description}
           </Text>
         </Box>
@@ -73,17 +73,17 @@ function HoopsFilm() {
     {
       videoSrc: "../video6.mp4",
       title: "Ella Passing Skills",
-      description: "Amazing assists and playmaking",
+      description: "Amazing Assists",
     },
     {
       videoSrc: "../video7.mp4",
       title: "Ella All-Star Game",
-      description: "Best moments from All-Star game",
+      description: "All-Star Highlights",
     },
     {
       videoSrc: "../video8.mp4",
       title: "Ella High School Highlights",
-      description: "Top plays from High School career",
+      description: "Elite High School Plays",
     },
   ];
 
