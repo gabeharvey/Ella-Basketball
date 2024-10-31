@@ -25,7 +25,7 @@ function Academics() {
           w={{ base: '90%', md: '500px' }}
           h="400px"
           m="5"
-          bgImage="url('/student-placeholder.png')" 
+          bgImage="url('/academic-placeholder.png')" 
           bgSize="cover"
           bgPosition="center"
           borderRadius="12px"
