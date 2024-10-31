@@ -5,11 +5,10 @@ const MotionBox = motion.create(Box);
 
 function Academics() {
   const academicAchievements = [
-    { title: "Class Rank", description: "Top 5%" },
-    { title: "GPA", description: "4.0" },
-    { title: "SAT Score", description: "1500" },
-    { title: "ACT Score", description: "34" },
-    { title: "Honors", description: "National Honor Society" },
+    { title: "Grades", description: "A Honor Roll" },
+    { title: "Attendance", description: "Perfect Attendance" },
+    { title: "Extracurriculars", description: "Member of Debate Team" },
+    { title: "Volunteer", description: "5 Volunteer Hours Per Quarter"}
   ];
 
   return (
