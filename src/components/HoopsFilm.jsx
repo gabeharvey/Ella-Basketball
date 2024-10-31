@@ -51,7 +51,7 @@ function HoopsFilm() {
       description: "Buzzer Beater",
     },
     {
-      videoSrc: "ella-vid-2.mov",
+      videoSrc: "ella-vid-2.MOV",
       title: "Ella Training",
       description: "Intense Basketball Workout",
     },
