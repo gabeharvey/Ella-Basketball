@@ -15,7 +15,7 @@ function Academics() {
   return (
     <VStack spacing={10} p={6} mt={12} align="center">
       <Heading fontSize="4xl" fontWeight="medium" color="#D2042D" fontFamily="'Teko', sans-serif" mb="5">
-        Academic Profile
+        Academics
       </Heading>
 
       <Flex direction="column" alignItems="center" width="100%">
@@ -25,7 +25,7 @@ function Academics() {
           w={{ base: '90%', md: '500px' }}
           h="400px"
           m="5"
-          bgImage="url('/academic-placeholder.png')" 
+          bgImage="url('/student-placeholder.png')" 
           bgSize="cover"
           bgPosition="center"
           borderRadius="12px"

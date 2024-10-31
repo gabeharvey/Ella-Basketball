@@ -29,7 +29,7 @@ function Card({ frontImg, bio, funFact, flipSound, cardNumber }) {
           h="100%"
           borderRadius="12px"
           boxShadow="0 0 15px rgba(0, 0, 0, 0.7)"
-          bg="white" 
+          bg="#000000" 
         >
           <Box
             bgImage={`url(${frontImg})`}
