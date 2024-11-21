@@ -1,3 +1,4 @@
+import { useState, useRef } from 'react';
 import { Box, Text, VStack, Heading, Grid, Flex, Link } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
 import { FaInstagram, FaTwitter, FaYoutube, FaFacebook } from 'react-icons/fa'; // Importing social media icons
@@ -5,6 +6,15 @@ import { FaInstagram, FaTwitter, FaYoutube, FaFacebook } from 'react-icons/fa'; 
 const MotionBox = motion.create(Box);
 
 function PlayerProfile() {
+  const [isPlaying, setIsPlaying] = useState(false);
+  const audioRef = useRef(null);
+
+  const handlePlay = () => {
+    if (audioRef.current) {
+      audioRef.current.play();
+      setIsPlaying(true);
+    }
+  };
   const player = {
     frontImg: "ella-1.png",
     secondImg: "basketball-placeholder.png",
@@ -38,6 +48,65 @@ function PlayerProfile() {
       <Heading fontSize="4xl" fontWeight="medium" color="#D2042D" fontFamily="'Teko', sans-serif" mb="5">
         {player.name}
       </Heading>
+      {isPlaying ? (
+        <button
+          onClick={() => {
+            if (audioRef.current) {
+              audioRef.current.pause();
+              setIsPlaying(false);
+            }
+          }}
+          style={{
+            background: 'none',
+            border: 'none',
+            cursor: 'pointer',
+            padding: '0',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#D2042D"
+            strokeWidth="2"
+            width="40px"
+            height="40px"
+          >
+            <rect x="6" y="4" width="4" height="16" />
+            <rect x="14" y="4" width="4" height="16" />
+          </svg>
+        </button>
+      ) : (
+        <button
+          onClick={handlePlay}
+          style={{
+            background: 'none',
+            border: 'none',
+            cursor: 'pointer',
+            padding: '0',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#D2042D"
+            strokeWidth="2"
+            width="40px"
+            height="40px"
+          >
+            <polygon points="5,3 19,12 5,21" />
+          </svg>
+        </button>
+      )}
+      <audio ref={audioRef} src="hiphop-1.mp3" preload="auto" />
+
       <Flex flexDirection="row" flexWrap="wrap" justifyContent="center" alignItems="center">
         {/* First Box: Player Image */}
         <MotionBox
