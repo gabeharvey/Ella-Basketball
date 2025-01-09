@@ -34,8 +34,8 @@ function Offers() {
         alignItems="center"
         width="100%"
       >
-                      {/* Box for "No Scholarship Offers" */}
-                      <MotionBox
+      {/* Box for "No Scholarship Offers" */}
+        <MotionBox
           w={{ base: '90%', md: '500px' }}
           h="150px"
           minW="320px"
