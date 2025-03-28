@@ -1,11 +1,12 @@
 import PlayerBio from './PlayerBio';
 import PlayerCards from './PlayerCards';
 import Contact from './Contact';
-import StatTracker from './StatTracker';
+// import StatTracker from './StatTracker';
 import HoopsFilm from './HoopsFilm';
 // import Offers from './Offers';
 import Media from './Media';
 import Academics from './Academics';
+import AskElla from './AskElla';
 
 const MainLayout = () => {
   return (
@@ -19,8 +20,11 @@ const MainLayout = () => {
       <div id="player-cards">
         <PlayerCards />
       </div>
-      <div id="stat-tracker">
+      {/* <div id="stat-tracker">
         <StatTracker />
+      </div> */}
+      <div id="ask-ella">
+        <AskElla />
       </div>
       <div id="academics">
         <Academics />
