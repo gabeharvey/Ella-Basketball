@@ -3,7 +3,7 @@ import PlayerCards from './PlayerCards';
 import Contact from './Contact';
 import StatTracker from './StatTracker';
 import HoopsFilm from './HoopsFilm';
-import Offers from './Offers';
+// import Offers from './Offers';
 import Media from './Media';
 import Academics from './Academics';
 
@@ -28,9 +28,9 @@ const MainLayout = () => {
       <div id="media">
         <Media />
       </div>
-      <div id="offers">
+      {/* <div id="offers">
         <Offers />
-      </div>
+      </div> */}
       <div id="contact">
         <Contact />
       </div>

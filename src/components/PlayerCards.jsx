@@ -148,7 +148,7 @@ function PlayerCards() {
       cardNumber: 4
     },
     {
-      frontImg: "basketball-placeholder-1.png",
+      frontImg: "ella-9.jpg",
       bio: "Ella Ramirez has shown impressive defensive skills, regularly locking down the opponent's best scorer.",
       funFact: "Once scored 50 points in a single game.",
       cardNumber: 5
