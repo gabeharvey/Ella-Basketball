@@ -53,7 +53,7 @@ function Contact() {
       mb={16}
     >
       <Heading fontSize="4xl" fontWeight="medium" color="#D2042D" fontFamily="'Teko', sans-serif">
-        Contact Us
+        Contact Ella
       </Heading>
 
       <MotionBox
