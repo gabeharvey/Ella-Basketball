@@ -14,7 +14,7 @@ function AskElla() {
           w={{ base: '90%', md: '500px' }}
           h="300px"
           m="5"
-          bgColor="#ebebeb"
+          bgColor="#D2042D"
           borderRadius="12px"
           borderWidth="4px"
           borderColor="#D2042D"
