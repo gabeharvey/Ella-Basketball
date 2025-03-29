@@ -20,10 +20,10 @@ function Contact() {
 
     emailjs
       .send(
-        'service_8ad0xkc',
-        'template_f30j0mr',
+        'service_u6gwwl8',
+        'template_r05zarg',
         formData,
-        'OsmvrvTNk66UEd-sC'
+        'J4zzaGYdzjhfHEOLI'
       )
       .then(
         (response) => {
