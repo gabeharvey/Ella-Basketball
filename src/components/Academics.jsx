@@ -7,8 +7,8 @@ function Academics() {
   const academicAchievements = [
     { title: "Grades", description: "A Honor Roll" },
     { title: "Attendance", description: "Perfect Attendance" },
-    { title: "Extracurriculars", description: "Member of Debate Team" },
-    { title: "Volunteer", description: "5 Volunteer Hours Per Quarter"}
+    { title: "Extracurriculars", description: "Member of National Junior Honor Society" },
+    { title: "Volunteer", description: "PALS Member"}
   ];
 
   return (
