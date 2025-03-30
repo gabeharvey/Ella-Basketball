@@ -24,7 +24,7 @@ function Academics() {
           w={{ base: '90%', md: '500px' }}
           h="400px"
           m="5"
-          bgImage="url('/ella-8.png')" 
+          bgImage="url('/churchill-hs-2.jpg')" 
           bgSize="cover"
           bgPosition="center"
           borderRadius="12px"

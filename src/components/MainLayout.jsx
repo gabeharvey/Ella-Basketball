@@ -4,7 +4,7 @@ import Contact from './Contact';
 // import StatTracker from './StatTracker';
 import HoopsFilm from './HoopsFilm';
 // import Offers from './Offers';
-import Media from './Media';
+// import Media from './Media';
 import Academics from './Academics';
 import AskElla from './AskElla';
 
@@ -29,9 +29,9 @@ const MainLayout = () => {
       <div id="academics">
         <Academics />
       </div>
-      <div id="media">
+      {/* <div id="media">
         <Media />
-      </div>
+      </div> */}
       {/* <div id="offers">
         <Offers />
       </div> */}
