@@ -25,7 +25,7 @@ function Academics() {
           h="400px"
           m="5"
           bgImage="url('/churchill-hs-2.jpg')" 
-          bgSize="contain"
+          bgSize="cover"
           bgPosition="center"
           bgRepeat="no-repeat"
           borderRadius="12px"
