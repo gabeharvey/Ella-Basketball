@@ -6,9 +6,9 @@ const MotionBox = motion.create(Box);
 function Academics() {
   const academicAchievements = [
     { title: "Grades", description: "A Honor Roll" },
-    { title: "Attendance", description: "Perfect Attendance" },
-    { title: "Extracurriculars", description: "Member of National Junior Honor Society" },
-    { title: "Volunteer", description: "PALS Member"}
+    { title: "Attendance", description: "Exemplary Attendance" },
+    { title: "Achievements", description: "Member of National Junior Honor Society" },
+    { title: "Volunteer", description: "Peer Assistance Leadership and Service (PALS)"}
   ];
 
   return (
