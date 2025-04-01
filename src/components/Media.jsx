@@ -18,7 +18,7 @@ function Media() {
   return (
     <VStack spacing={10} p={6} mt={12} align="center"> 
       <Heading fontSize="4xl" fontWeight="medium" color="#D2042D" fontFamily="'Teko', sans-serif" mb="5">
-        Media Coverage
+        Media Buzz
       </Heading>
       <Flex direction="column" alignItems="center" width="100%">
         {mediaArticles.map((article, index) => (
