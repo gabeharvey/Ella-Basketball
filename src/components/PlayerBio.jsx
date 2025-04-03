@@ -25,7 +25,7 @@ function PlayerProfile() {
       { title: "Height", description: "5'2 1/2\"" },
       { title: "Weight", description: "115 lbs" },
       { title: "Place of Birth", description: "Austin, TX" },
-      { title: "High School", description: "Churchill" },
+      { title: "High School", description: "Churchill HS" },
       { title: "Club Team", description: "AUSTIN UNBREAKABLE" },
     ],
     socialMedia: {
