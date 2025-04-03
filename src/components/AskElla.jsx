@@ -29,7 +29,7 @@ function AskElla() {
           transition={{ duration: 2, ease: 'easeOut' }}
         >
           <video width="100%" height="100%" style={{ objectFit: "cover" }} controls>
-            <source src="ask-ella.mp4" type="video/mp4" />
+            <source src="ask-ella-final.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </MotionBox>
