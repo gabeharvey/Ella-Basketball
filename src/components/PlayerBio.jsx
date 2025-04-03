@@ -22,7 +22,7 @@ function PlayerProfile() {
     bioCategories: [
       { title: "Class", description: "2030" },
       { title: "Position", description: "PG" },
-      { title: "Height", description: "5'2\"" },
+      { title: "Height", description: "5'2 1/2\"" },
       { title: "Weight", description: "115 lbs" },
       { title: "Place of Birth", description: "Austin, TX" },
       { title: "High School", description: "Churchill" },
