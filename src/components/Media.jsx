@@ -6,7 +6,7 @@ const MotionBox = motion.create(Box);
 function Media() {
   const mediaArticles = [
     {
-      title: "Ella Ramirez Goes For 32 Pts",
+      title: "Ella Ramirez Shines For 32 Pts",
       url: "https://news4sanantonio.com",
     },
     {
